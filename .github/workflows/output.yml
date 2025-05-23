@@ -1,5 +1,5 @@
 name: Issue Object
-on: workflow_dispatch
+on: issues
 jobs:
   issues:
     runs-on: macos-latest
