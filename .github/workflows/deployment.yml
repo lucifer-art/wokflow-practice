@@ -18,6 +18,8 @@ jobs:
         run: npm run test
       - name: Run Deploy
         run: npm run build
+      - name: Deploy
+        run: echo "Deployed"
   # test:
   #   needs: lint
   #   runs-on: macos-latest

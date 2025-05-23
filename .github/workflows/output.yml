@@ -1,0 +1,9 @@
+name: Issue Object
+on: workflow_dispatch
+jobs:
+  issues:
+    runs-on: macos-latest
+    steps:
+      - name: Issue Handle
+        run: echo "${{toJSON(github.event)}}"
+      
